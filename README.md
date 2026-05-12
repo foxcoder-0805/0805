@@ -1,1 +1,1 @@
-it's cfg file for my system
+it's cfg file for my Arch Linux
