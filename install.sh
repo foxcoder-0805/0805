@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S nvim kitty fish zeditor flameshot gimp;
+sudo pacman -S nvim kitty fish zed flameshot gimp;
 sudo pacman -S vlc libreoffice zellij obsidian qbittorrent;
 sudo pacman -S bat cat lsd zoxide cowsay fastfetch;
 sudo flatpak install zoom; sudo flatpak install steam;
