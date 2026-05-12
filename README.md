@@ -1,1 +1,1 @@
-# 0805
+it's cfg file for my system
