@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S nvim kitty fish zed flameshot gimp;
+sudo pacman -S nvim kitty fish zed flameshot gimp flatpak;
 sudo pacman -S vlc libreoffice zellij obsidian qbittorrent;
 sudo pacman -S bat cat lsd zoxide cowsay fastfetch;
 sudo flatpak install zoom; sudo flatpak install steam;
@@ -11,6 +11,8 @@ makepkg -si;
 yay -S yt-dlp;
 
 sudo pacman -R nano top;
+
+git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git;
 
 chsh -s $(which fish);
 
