@@ -1,0 +1,32 @@
+{
+  "proxy": "",
+  "cli_default_open_behavior": "existing_window",
+  "vim_mode": true,
+  "base_keymap": "JetBrains",
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "ui_font_size": 20,
+  "buffer_font_size": 19,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Mirage",
+    "dark": "One Dark"
+  },
+
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "background": "#282c3390",
+    "editor.background": "#282c330",
+    "editor.gutter.background": "#282c3375",
+    "tab_bar.background": "#3b414d",
+    "terminal.background": "#282c3375",
+    "toolbar.background": "#3b414d",
+    "tab.active_background": "#28282820",
+    "tab.inactive_background": "#282c3375",
+    "status_bar.background": "#3b414d",
+    "title_bar.background": "#3b414d",
+    "panel.background": "#282c3375",
+    "border.variant": "#3b414d",
+    "scrollbar.track.border": "#00000000",
+    "editor.active_line.background": "#3b414d"
+  }
+}
