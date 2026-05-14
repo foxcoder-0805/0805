@@ -17,9 +17,11 @@ chsh -s $(which fish);
 rm ~/.config/fish/config.fish;
 rm ~/.config/kitty/kitty.conf;
 rm ~/.config/nvim/init.vim;
+rm ~/.config/zed/settings.json;
 
 cp cfg/fish/config.fish ~/.config/fish/config.fish;
 cp cfg/kitty/kitty.conf ~/.config/kitty/kitty.conf;
 cp cfg/nvim/init.vim ~/.config/nvim/init.vim;
+cp cfg/settings.json ~/.config/zed/settings.json;
 
 cowsay "Installation complete";
