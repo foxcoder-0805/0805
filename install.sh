@@ -2,7 +2,7 @@
 
 sudo pacman -S nvim kitty fish zed flameshot gimp flatpak;
 sudo pacman -S vlc libreoffice zellij obsidian qbittorrent;
-sudo pacman -S bat cat lsd zoxide cowsay fastfetch thunar;
+sudo pacman -S bat cat lsd zoxide cowsay fastfetch thunar tldr;
 sudo flatpak install zoom; sudo flatpak install steam;
 
 git clone https://aur.archlinux.org/yay.git;cd yay;
