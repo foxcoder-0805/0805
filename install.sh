@@ -9,6 +9,7 @@ git clone https://aur.archlinux.org/yay.git;cd yay;
 makepkg -si;
 
 yay -S yt-dlp;
+yay -S uzdoom;
 
 sudo pacman -R nano top;
 
