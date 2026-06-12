@@ -12,6 +12,8 @@ alias zed='zeditor'
 alias zel='zellij'
 alias cd='z'
 alias nn='nvim ~/.config/nvim/init.vim'
+alias term_tutor='cat /home/term_tutor.txt'
+alias nzel='nvim /home/foxcoder/.config/zellij/config.kdl'
 
 zoxide init fish | source
 

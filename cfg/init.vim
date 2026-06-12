@@ -38,3 +38,9 @@ vim.cmd([[
 EOF
 
 lua vim.o.termguicolors = true
+
+call plug#begin()
+
+Plug 'scroolose/nerdtree'
+
+call plug#end()
