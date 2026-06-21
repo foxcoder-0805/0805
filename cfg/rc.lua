@@ -157,7 +157,7 @@ local tasklist_buttons = gears.table.join(
 
 
 local function set_wallpaper(s)
-    local wallpaper = "/home/foxcoder/Pictures/china.jpg"
+    local wallpaper = "/home/foxcoder/Pictures/wallpaper.jpg"
     if gears.filesystem.file_readable(wallpaper) then
         gears.wallpaper.maximized(wallpaper, s, true)
     end
@@ -585,7 +585,7 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
-awful.spawn.with_shell("picom -b")
+-- awful.spawn.with_shell("picom -b")
 
 
 terminal = "env XDG_CURRENT_DESKTOP=X-Generic kitty"
