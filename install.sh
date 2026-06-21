@@ -3,7 +3,6 @@
 sudo pacman -S nvim kitty fish zed flameshot gimp flatpak;
 sudo pacman -S vlc libreoffice zellij obsidian qbittorrent;
 sudo pacman -S bat cat lsd zoxide cowsay fastfetch thunar tldr;
-sudo flatpak install zoom; sudo flatpak install steam;
 
 git clone https://aur.archlinux.org/yay.git;cd yay;
 makepkg -si;
@@ -15,13 +14,10 @@ sudo pacman -R nano top;
 
 git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git;
 
-chsh -s $(which fish);
+mv zapret-discord-youtube-linux zapret
+mv zapret ../
 
-rm ~/.config/fish/config.fish;
-rm ~/.config/kitty/kitty.conf;
-rm ~/.config/nvim/init.vim;
-rm ~/.config/zed/settings.json;
-rm ~/.config/zellij/config.kdl;
+chsh -s $(which fish);
 
 cp cfg/fish/config.fish ~/.config/fish/config.fish;
 cp cfg/kitty/kitty.conf ~/.config/kitty/kitty.conf;
